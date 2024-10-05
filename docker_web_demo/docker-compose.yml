@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nginx:
+    image: andrewtatev/docker_web_demo
+    restart: always
+    ports:
+      - "8765:80"
